@@ -1,6 +1,7 @@
 ## Overview
-Sniffer is a sophisticated Minecraft server plugin designed to provide in-depth player behavior analysis and cheat detection. 
-By collecting and analyzing detailed movement, combat, block interaction, and rotation data, Sniffer offers server administrators a powerful tool for understanding and mitigating potential cheating attempts.
+## 🎯 Purpose
+Sniffer is a specialized data collection tool designed to assist anticheat developers in gathering precise, raw player interaction data. 
+It provides granular insights into player movements, combat interactions, and block interactions to support cheat detection research and development.
 
 ## 🔍 Key Features
 - **Comprehensive Data Collection**
