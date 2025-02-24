@@ -60,4 +60,4 @@ Contributions, issues, and feature requests are welcome! Feel free to check the 
 Sniffer is a tool for server administration and cheat detection. Always use responsibly and in compliance with your server's rules and player privacy considerations.
 
 ## 📄 License
-It's free
+Refer to LICENSE
