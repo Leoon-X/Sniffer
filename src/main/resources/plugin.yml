@@ -1,0 +1,18 @@
+name: Sniffer
+version: '${project.version}'
+main: me.leon.sniffer.Sniffer
+author: Leon
+description: Advanced packet sniffing system for anti-cheat development
+commands:
+  sniff:
+    description: Control the packet sniffer
+    usage: /sniff <category> [options]
+    permission: sniffer.use
+permissions:
+  sniffer.*:
+    description: Gives access to all Sniffer commands
+    children:
+      sniffer.use: true
+  sniffer.use:
+    description: Allows using the sniff command
+    default: op

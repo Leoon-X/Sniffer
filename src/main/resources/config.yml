@@ -1,0 +1,52 @@
+# Advanced Packet Sniffer Configuration
+
+# Debug Settings
+debug: false
+verbose-logging: false
+save-violations: true
+
+# Check Settings
+checks:
+  movement:
+    max-speed: 10.0
+    max-acceleration: 5.0
+    max-vertical-speed: 4.0
+    max-air-ticks: 20
+    check-timer: true
+
+  combat:
+    max-reach: 3.1
+    max-cps: 20
+    aim-sensitivity: 0.00001
+    check-autoclicker: true
+
+  rotation:
+    max-speed: 180.0
+    min-gcd: 0.00001
+    check-aimbot: true
+
+  block:
+    max-reach: 5.5
+    min-break-time: 50
+    check-nuker: true
+
+# Storage Settings
+storage:
+  type: 'FILE' # FILE or MYSQL
+  mysql:
+    host: 'localhost'
+    port: 3306
+    database: 'sniffer'
+    username: 'root'
+    password: 'password'
+  file:
+    compression: true
+    max-file-size: 10 # In MB
+    cleanup-days: 7
+
+# Analysis Settings
+analysis:
+  samples: 20
+  min-data-points: 5
+  save-interval: 300 # In seconds
+  cleanup-interval: 600 # In seconds
