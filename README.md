@@ -1,8 +1,6 @@
-Here's a comprehensive GitHub description for your Sniffer project:
-markdownCopy# Sniffer - Advanced Player Behavior Analysis Tool
-
 ## Overview
-Sniffer is a sophisticated Minecraft server plugin designed to provide in-depth player behavior analysis and cheat detection. By collecting and analyzing detailed movement, combat, block interaction, and rotation data, Sniffer offers server administrators a powerful tool for understanding and mitigating potential cheating attempts.
+Sniffer is a sophisticated Minecraft server plugin designed to provide in-depth player behavior analysis and cheat detection. 
+By collecting and analyzing detailed movement, combat, block interaction, and rotation data, Sniffer offers server administrators a powerful tool for understanding and mitigating potential cheating attempts.
 
 ## 🔍 Key Features
 - **Comprehensive Data Collection**
